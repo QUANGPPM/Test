@@ -1,0 +1,88 @@
+Lệnh cd:
+
+cd .. : quay về thư mục cha
+
+dir hoặc ls: hiển thị các danh sách bên trong thư mục 
+
+clear : để dọn màn hình
+
+mkdir "folder's name" : tạo thư mục mới
+
+touch "file's name" :  tạo file mới
+
+(muốn tạo folder/file có dấu cách -> thêm dấu 'name')
+
+echo <content> : in/xuất một nội dung nào đó lên màn hình hoặc
+		 vào file nào đó
+
+echo "Text" > "file's name" : in chữ Text vào file (overwrite)
+echo "Text" >> "file's name" : ghi dòng mới
+
+
+cat : hiển thị nội dung trong file
+
+
+diff file1 file2 : so sánh file1 với file2 xem có gì khác biệt
+
+rm "name" : xóa folder/tập tin
+
+===========================GIT=============================
+
+Câu lệnh:
+	git --help
+
+	git --version
+
+	git status : hiển thị trạng thái kho lưu trữ
+	
+	git log : hiển thị các commit
+
+	
+----------------------------------------------
+Cấu hình repo mới:
+
+	git init [repo name] : tạo ra một kho lưu trữ
+
+	git clone [repo name] [clone name] : tạo một bản sao 
+được liên kết với repo
+
+	git config -l : xem cấu hình hiện tại
+	
+	git config -l [--scope] [option_name] [value] : cấu hình
+
+		scope : -- system : tất cả người dùng 
+			--global  : liên quan đến repo(s)
+			--local   : liên quan đến 1 repo
+
+----------------------------------------------
+Cấu hình thông tin cho Git
+		
+	Cấu hình User name:
+	git config --global/local user.name "your account"
+
+	
+	Cấu hình User email:
+	git config --global/local user.email "your email"
+
+
+Xem cấu hình global và local:
+	git config -l --global/local
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
